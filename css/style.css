@@ -1,0 +1,41 @@
+﻿body {
+    background-color: black;
+}
+
+#tabs {
+    color: cyan;
+}
+
+#tabs:hover {
+    background-color: beige;
+    color: black;
+}
+
+#main-content {
+    color: rgb(136, 146, 176);
+}
+
+#about {
+    margin-top: 200px;
+    margin-left: 5vw;
+}
+
+#quiz {
+    margin-top: 50px;
+    margin-left: 80vw;
+}
+
+#carouselExampleControls {
+    margin-top: 100px;
+}
+
+#image {
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 991px){
+    #tabs {
+        text-align: center;
+    }
+}
