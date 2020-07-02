@@ -17,7 +17,7 @@ body {
 
 #navigation-bar {
     width: 100%;
-}    
+}
 
 #main-content {
     color: rgb(136, 146, 176);
@@ -101,11 +101,11 @@ body {
 }
 
 #image4 img:hover {
-   box-shadow: 3px 5px 2px #dedec3;
+    box-shadow: 3px 5px 2px #dedec3;
     opacity: 0.8;
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
     #tabs {
         text-align: center;
     }
