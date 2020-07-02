@@ -1,4 +1,8 @@
-﻿body {
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
     background-color: black;
 }
 
@@ -15,6 +19,10 @@
     color: rgb(136, 146, 176);
 }
 
+#toggle-button:hover {
+    background-color: black;
+}
+
 #about {
     margin-top: 200px;
     margin-left: 5vw;
@@ -25,13 +33,72 @@
     margin-left: 80vw;
 }
 
-#carouselExampleControls {
+#carouselExampleIndicators {
     margin-top: 100px;
 }
 
-#image {
-    height: 300px;
-    width: 300px;
+#image1 {
+    height: 600px;
+    text-align: center;
+}
+
+#image1 img {
+    height: 500px;
+    width: 50%;
+    border: 5px solid white;
+}
+
+#image1 img:hover {
+    box-shadow: 3px 5px 2px #dedec3;
+    opacity: 0.8;
+}
+
+#image2 {
+    height: 600px;
+    text-align: center;
+}
+
+#image2 img {
+    height: 500px;
+    width: 50%;
+    border: 5px solid white;
+}
+
+#image2 img:hover {
+    box-shadow: 3px 5px 2px #dedec3;
+    opacity: 0.8;
+}
+
+#image3 {
+    height: 600px;
+    text-align: center;
+}
+
+#image3 img {
+    height: 500px;
+    width: 50%;
+    border: 5px solid white;
+}
+
+#image3 img:hover {
+    box-shadow: 3px 5px 2px #dedec3;
+    opacity: 0.8;
+}
+
+#image4 {
+    height: 600px;
+    text-align: center;
+}
+
+#image4 img {
+    height: 500px;
+    width: 50%;
+    border: 5px solid white;
+}
+
+#image4 img:hover {
+   box-shadow: 3px 5px 2px #dedec3;
+    opacity: 0.8;
 }
 
 @media (max-width: 991px){
