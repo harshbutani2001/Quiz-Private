@@ -1,0 +1,100 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#p1 {
+    margin-top: 100px;
+}
+
+#p1 h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#p1 p {
+    color: white;
+    text-align: center;
+}
+
+#form {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#image-container {
+    text-align: center;
+}
+
+#image-container img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid aqua;
+}
+
+#container {
+    color: white;
+    position: relative;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#forgot {
+    text-decoration: none;
+    float: right;
+    margin-top: 22px;
+    color: cyan;
+}
+
+#forgot:hover {
+    opacity: 0.8;
+}
+
+#account {
+    text-decoration: none;
+    margin-left: 20%;
+    margin-top: 25px;
+    color: lightsalmon;
+    font-size: 25px;
+}
+
+#account:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 991px) {
+    #account {
+        position: absolute;
+        top: 250px;
+        left: 0;
+        margin-left: 0;
+    }
+}
