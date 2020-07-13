@@ -1,0 +1,57 @@
+
+body, .jumbotron {
+  background-color: black;
+}
+
+
+
+
+/*
+flip card
+*/
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  padding: 0;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+  text-align: center;
+  background-color: black;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+
+.img-responsive {
+    width: auto;
+    height: 300px;
+    max-height: 100%;
+    display: block;
+    border-color: #dedec3;
+    border-width: .25rem;
+
+}
+
+.card {
+
+  border-color: #000;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Quiz</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style_q.css">
+
+  <!-- Bootstrap Script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav id="navigation-bar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a id="home" class="navbar-brand" href="#">Quiz<span class="sr-only">(current)</span></a>
+    <button id="toggle-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span id="icon" class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a id="tabs" class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a id="tabs" class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a id="tabs" class="nav-link" href="#">Log In</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-lg-4 col-md-6 my-3">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white">
+
+
+                        <img src="images/cs.jpg" alt="Hola" class="img-fluid img-responsive">
+
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Computer Science</h3>
+                        <p class="card-text">Feel like you can decode the problems?</p>
+                        <a href="#" class="btn btn-outline-secondary">PLay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-6 my-3">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white">
+
+                        <img src="images/chemistry.jpg" alt="Hola" class="img-fluid img-responsive">
+
+                </div>
+                <div class="card-back bg-dark text-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Chemistry</h3>
+                        <p class="card-text">Do you have the moles to answer these questions?</p>
+                        <a href="#" class="btn btn-outline-secondary">Bring it on!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-6 my-3">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white">
+
+                      <img src="images/mathematics.jpg" alt="Hola" class="img-fluid img-responsive">
+
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body text-primary">
+                        <h3 class="card-title">Mathematics</h3>
+                        <p class="card-text">Think you can solve math!</p>
+                        <a href="#" class="btn btn-outline-primary">Let's do it!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-6 my-3">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white">
+
+                        <img src="images/physics.jpg" alt="Hola" class="img-fluid img-responsive">
+
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Physics</h3>
+                        <p class="card-text">Do you really know anything about the laws of nature!</p>
+                        <a href="#" class="btn btn-outline-secondary">Find out here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-6 my-3">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white">
+
+                      <img src="images/cs.jpg" alt="Hola" class="img-fluid img-responsive">
+
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Category 5</h3>
+                        <p class="card-text">Lets see what this one turns out to be!</p>
+                        <a href="#" class="btn btn-outline-secondary">Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 col-md-6 my-3">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white">
+
+                        <img src="images/cs.jpg" alt="Hola" class="img-fluid img-responsive">
+
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h3 class="card-title">Category#6</h3>
+                        <p class="card-text">Another to-be-decided!</p>
+                        <a href="#" class="btn btn-outline-secondary">Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+
+
+
+</body>
+
+</html>
